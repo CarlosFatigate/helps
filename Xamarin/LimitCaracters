@@ -1,0 +1,12 @@
+Colocar este código no chage, para limit de caracteres.
+
+
+entry.TextChanged += (sender, args) =>
+    {
+        string _text= _entry.Text;      //Get Current Text
+        if(_text.Length > _limit)       //If it is more than your character restriction
+        {
+            _text= _text.Remove(_text.Length - 1);  // Remove Last character
+            _entry.Text = _text;        //Set the Old value
+        }
+    };
