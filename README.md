@@ -3,11 +3,11 @@
 Alguns Helpers, em geral.
 
 ## SQL
- - **Toda as Cidades e Estados do Brasil.**
- - **Códigos de compensação dos Bancos do Brasil.**
+ - **Insert de todas as Cidades e Estados do Brasil.**
+ - **Insert de todos os Códigos de compensação e Nomes dos Bancos do Brasil.**
 
 ## Xamarin
- - **Limite de caractérs em Xamarin.**
+ - **Limite de caractérs.**
 
 ## PHP
  - **Enviar Email.**
